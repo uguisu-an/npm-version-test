@@ -6,7 +6,10 @@
   "scripts": {
     "serve": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "echo 'Preversion'",
+    "version": "echo 'Version'",
+    "postversion": "echo 'Postversion'"
   },
   "repository": {
     "type": "git",
