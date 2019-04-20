@@ -2,8 +2,10 @@
   "name": "npm-version-test",
   "version": "0.0.2",
   "description": "test npm version",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/uguisu-an/npm-version-test/issues"
   },
-  "homepage": "https://github.com/uguisu-an/npm-version-test#readme"
+  "homepage": "https://github.com/uguisu-an/npm-version-test#readme",
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "sass": "^1.19.0",
+    "typescript": "^3.4.4"
+  }
 }
